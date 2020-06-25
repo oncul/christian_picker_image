@@ -5,13 +5,16 @@ import UIKit
 
   // MARK: Colors
 
-  @objc public var backgroundColor = UIColor(red: 0.15, green: 0.19, blue: 0.24, alpha: 1)
+  @objc public var backgroundColor = UIColor(red: 0.19, green: 0.09, blue: 0.28, alpha: 1.00)
+
   @objc public var gallerySeparatorColor = UIColor.black.withAlphaComponent(0.6)
   @objc public var mainColor = UIColor(red: 0.09, green: 0.11, blue: 0.13, alpha: 1)
   @objc public var noImagesColor = UIColor(red: 0.86, green: 0.86, blue: 0.86, alpha: 1)
   @objc public var noCameraColor = UIColor(red: 0.86, green: 0.86, blue: 0.86, alpha: 1)
   @objc public var settingsColor = UIColor.white
-  @objc public var bottomContainerColor = UIColor(red: 0.09, green: 0.11, blue: 0.13, alpha: 1)
+  @objc public var bottomContainerColor = UIColor(red: 0.19, green: 0.09, blue: 0.28, alpha: 1.00)
+
+
 
   // MARK: Fonts
 
@@ -25,13 +28,13 @@ import UIKit
   // MARK: Titles
 
   @objc public var OKButtonTitle = "OK"
-  @objc public var cancelButtonTitle = "Cancel"
-  @objc public var doneButtonTitle = "Done"
-  @objc public var noImagesTitle = "No images available"
-  @objc public var noCameraTitle = "Camera is not available"
-  @objc public var settingsTitle = "Settings"
-  @objc public var requestPermissionTitle = "Permission denied"
-  @objc public var requestPermissionMessage = "Please, allow the application to access to your photo library."
+  @objc public var cancelButtonTitle = "İptal"
+  @objc public var doneButtonTitle = "Bitti"
+  @objc public var noImagesTitle = "Kullanılabilir fotoğraf yok"
+  @objc public var noCameraTitle = "Kameraya ulaşılamıyor"
+  @objc public var settingsTitle = "Ayarlara Git"
+  @objc public var requestPermissionTitle = "İzin verilmedi"
+  @objc public var requestPermissionMessage = "Galeriye erişmek için, lütfen izin veriniz."
 
   // MARK: Dimensions
 

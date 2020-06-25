@@ -19,7 +19,7 @@ public class SwiftChristianPickerImagePlugin: NSObject, FlutterPlugin, ImagePick
 
         lightbox.modalPresentationStyle = .fullScreen
         lightbox.dynamicBackground = false
-        LightboxConfig.CloseButton.text = "Close"
+        LightboxConfig.CloseButton.text = "Kapat"
         imagePicker.present(lightbox, animated: true, completion: nil)
     }
     
